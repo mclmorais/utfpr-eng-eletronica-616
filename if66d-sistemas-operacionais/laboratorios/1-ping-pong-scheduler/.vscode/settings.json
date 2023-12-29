@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "uartstdio.h\u0000artstdio.h": "c",
+        "uartstdio.h\u0000stdio.h": "c",
+        "uartstdio.h\u0000tdio.h": "c",
+        "uartstdio.h\u0000tstdio.h": "c",
+        "uartstdio.h\u0000uartstdio.h": "c",
+        "pingpong-tasks3.h": "c"
+    }
+}

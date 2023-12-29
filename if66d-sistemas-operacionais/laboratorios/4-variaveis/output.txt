@@ -1,0 +1,37 @@
+My variables are at:
+  addr var_global     is 0x55f235c03040
+  addr var_global_big is 0x55f235c03060
+  addr const_global   is 0x55f235a01c18
+  addr string         is 0x55f235c03010
+  addr *string        is 0x55f235a01c1c
+  addr var_din        is 0x55f235fd3960
+  addr *var_din       is 0x7f40702b0010
+  addr func main      is 0x55f235a019cf
+  addr func func      is 0x55f235a0190a
+  addr param          is 0x7ffd8c311cbc
+  addr var_local      is 0x7ffd8c311cc8
+  addr var_local_st   is 0x55f235c03024
+  addr var_local_big  is 0x7ffd8c311cd0
+  addr const_local    is 0x7ffd8c311ccc
+
+My memory map is (from /proc/self/maps):
+55f235a01000-55f235a02000 r-xp 00000000 08:05 10257853                   /home/marcelo/repos/os-tasks/2018-09-17-variaveis/variaveis
+55f235c02000-55f235c03000 r--p 00001000 08:05 10257853                   /home/marcelo/repos/os-tasks/2018-09-17-variaveis/variaveis
+55f235c03000-55f235c04000 rw-p 00002000 08:05 10257853                   /home/marcelo/repos/os-tasks/2018-09-17-variaveis/variaveis
+55f235c04000-55f235fd4000 rw-p 00000000 00:00 0 
+55f237e79000-55f237e9a000 rw-p 00000000 00:00 0                          [heap]
+7f406fdac000-7f406ff93000 r-xp 00000000 08:05 5247613                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f406ff93000-7f4070193000 ---p 001e7000 08:05 5247613                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f4070193000-7f4070197000 r--p 001e7000 08:05 5247613                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f4070197000-7f4070199000 rw-p 001eb000 08:05 5247613                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f4070199000-7f407019d000 rw-p 00000000 00:00 0 
+7f407019d000-7f40701c4000 r-xp 00000000 08:05 5247585                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f40702b0000-7f40703a7000 rw-p 00000000 00:00 0 
+7f40703c4000-7f40703c5000 r--p 00027000 08:05 5247585                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f40703c5000-7f40703c6000 rw-p 00028000 08:05 5247585                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f40703c6000-7f40703c7000 rw-p 00000000 00:00 0 
+7ffd8c311000-7ffd8c6e4000 rw-p 00000000 00:00 0                          [stack]
+7ffd8c715000-7ffd8c718000 r--p 00000000 00:00 0                          [vvar]
+7ffd8c718000-7ffd8c71a000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+ÿ

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <title>I/O Control Demo 1</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    </head>
+
+    <body>
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" width="75%">
+                        <center>
+                            <h2 align="center">Controle da Bomba</h2>
+                        </center>
+                        <hr size="2" width="100%">
+                        <p>Esta página controla o ligamento-desligamento da bomba e modifica seu funcionamento entre controle manual e automático.</p>
+                        <p><b>Ligar/Desligar Sistema de Controle da Bomba</b></p>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input id="toggle" value="Alternar Bomba" onclick="toggle_led();" type="button">
+                                    </td>
+                                    <td>
+                                        <div id="ledstate" align="center">OFF</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p></p>
+                        <br>
+                        <p><b>Selecionar Modo Manual/Automático</b></p>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Velocidade Atual:</td>
+                                    <td>
+                                        <div id="current_speed" align="center">-</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Modo Manual</td>
+                                    <td>
+                                        <input type="range" onchange="changeValueRange(this.value)" oninput="liverange(this.value)" name="points" min="0" max="100"> <span id="rangevalue">0</span>%
+                                    </td>
+                                </tr>
+                                <input maxlength="3" hidden size="4" id="speed_percent" type="text"></td>
+                            </tbody>
+                        </table>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input id="speed_set" value="Modo Automático" onclick="speedGetInterval()" type="button">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+
+</html>
