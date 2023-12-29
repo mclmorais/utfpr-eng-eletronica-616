@@ -1,0 +1,33 @@
+function [smp dcb] = queryMega(aps, allMs)
+%[smp dcb] = queryMega(aps, allMs) calcula a distância city-block
+%(diferença absoluta) entre a aposta 'aps' e todos os sorteios em 'allMs'.
+%Retorna o sorteio que apresentou a menor ditância em 'smp'
+%e a distância em 'cb'.
+%Veja também:  gamble_mega, getMega.
+
+%Verifica se aps contém 6 números
+if (length(aps) ~= 6)
+    error('Aposte 6 números.')
+end
+
+%Cada sorteio em ordem crescente
+allMsSorted = sort(allMs, 2);
+
+%Numero de sorteios
+ns = size(allMsSorted, 1); %numero de linhas
+
+%Distancia city-block entre a aposta 'aps' e
+%cada sorteio em 'AllMsSorted'
+d = zeros(ns,1); %aloca vetor para distancias
+% for i = 1:ns
+%     d(i) = sum( abs(aps - allMsSorted(i,:)) );
+% end
+d =  sum( abs(aps - allMsSorted(1,:)) );
+
+%Distâncias em ordem crescente e os índices
+[dSorted idx] = sort(d);
+%Os índices em 'idx' correspondem à ordenação de 'd'.
+%Portanto, o primeiro índice em 'idx' corresponde ao
+%sorteio mais próximo em 'allMsSorted'
+smp = allMsSorted(idx(1),:);
+dcb = dSorted(1);
