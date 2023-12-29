@@ -1,0 +1,46 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# File: C:\repositories\el68a-logica-reconfiguravel\lab-s6\detectorocorrenciasgenerico\contadorocorrencias.csv
+# Generated on: Wed Apr 17 21:00:36 2019
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
+display_outputs[0][0],Output,PIN_E11,7,B7_N1,PIN_E11,,,,,
+display_outputs[0][1],Output,PIN_F11,7,B7_N1,PIN_F11,,,,,
+display_outputs[0][2],Output,PIN_H12,7,B7_N1,PIN_H12,,,,,
+display_outputs[0][3],Output,PIN_H13,7,B7_N1,PIN_H13,,,,,
+display_outputs[0][4],Output,PIN_G12,7,B7_N1,PIN_G12,,,,,
+display_outputs[0][5],Output,PIN_F12,7,B7_N1,PIN_F12,,,,,
+display_outputs[0][6],Output,PIN_F13,7,B7_N1,PIN_F13,,,,,
+led_outputs[0],Output,PIN_J1,1,B1_N1,PIN_H9,,,,,
+led_outputs[1],Output,PIN_J2,1,B1_N1,PIN_G8,,,,,
+led_outputs[2],Output,PIN_J3,1,B1_N1,PIN_H16,,,,,
+led_outputs[3],Output,PIN_H1,1,B1_N1,PIN_F1,,,,,
+led_outputs[4],Output,PIN_F2,1,B1_N0,PIN_B5,,,,,
+led_outputs[5],Output,PIN_E1,1,B1_N0,PIN_B1,,,,,
+led_outputs[6],Output,PIN_C1,1,B1_N0,PIN_G3,,,,,
+led_outputs[7],Output,PIN_C2,1,B1_N0,PIN_E9,,,,,
+vetorbusca[0],Input,PIN_J6,1,B1_N0,PIN_J6,,,,,
+vetorbusca[1],Input,PIN_H5,1,B1_N0,PIN_H5,,,,,
+vetorbusca[2],Input,PIN_H6,1,B1_N0,PIN_H6,,,,,
+vetorbusca[3],Input,PIN_G4,1,B1_N0,PIN_G4,,,,,
+vetorbusca[4],Input,PIN_G5,1,B1_N0,PIN_G5,,,,,
+vetorbusca[5],Input,PIN_J7,1,B1_N1,PIN_J7,,,,,
+vetorbusca[6],Input,PIN_H7,1,B1_N0,PIN_H7,,,,,
+vetorbusca[7],Input,PIN_E3,1,B1_N0,PIN_E3,,,,,
+vetorbusca[8],Input,PIN_E4,1,B1_N0,PIN_E4,,,,,
+vetorbusca[9],Input,PIN_D2,1,B1_N0,PIN_D2,,,,,

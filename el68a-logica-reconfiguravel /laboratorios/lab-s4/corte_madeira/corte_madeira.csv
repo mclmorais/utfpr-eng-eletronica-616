@@ -1,0 +1,29 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# File: C:\repositories\logica-reconfiguravel\lab-s4\corte_madeira\corte_madeira.csv
+# Generated on: Tue Apr 09 16:19:41 2019
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
+inputA,Input,PIN_J6,1,B1_N0,PIN_J6,,,,,
+inputB,Input,PIN_H5,1,B1_N0,PIN_H5,,,,,
+inputC,Input,PIN_H6,1,B1_N0,PIN_H6,,,,,
+inputD,Input,PIN_G4,1,B1_N0,PIN_G4,,,,,
+outputF,Output,PIN_J3,1,B1_N1,PIN_J1,,,,,
+outputL,Output,PIN_J1,1,B1_N1,PIN_J2,,,,,
+outputR,Output,PIN_H1,1,B1_N1,PIN_J3,,,,,
+outputT,Output,PIN_J2,1,B1_N1,PIN_H1,,,,,

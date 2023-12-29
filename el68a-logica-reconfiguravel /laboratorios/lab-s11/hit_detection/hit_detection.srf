@@ -1,0 +1,4 @@
+{ "" "" "" "Timing requirements not met" {  } {  } 0 332148 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Synopsys Design Constraints File file not found: 'hit_detection.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design." {  } {  } 0 332012 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Parallel compilation is not licensed and has been disabled" {  } {  } 0 20028 "" 0 0 "Quartus II" 0 -1 0 ""}
+{ "" "" "" "Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature." {  } {  } 0 292013 "" 0 0 "Quartus II" 0 -1 0 ""}
