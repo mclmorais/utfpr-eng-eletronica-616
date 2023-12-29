@@ -1,0 +1,5 @@
+*.cf
+*.ghw
+*.zip
+.vscode/
+*.sqlite
