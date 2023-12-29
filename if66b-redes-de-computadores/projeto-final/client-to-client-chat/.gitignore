@@ -1,0 +1,4 @@
+**/node_modules/
+client-win.exe
+client-linux
+client-macos

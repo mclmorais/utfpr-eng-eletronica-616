@@ -1,0 +1,33 @@
+{
+  "name": "if66b-client-to-client-chat",
+  "version": "1.0.0",
+  "description": "Projeto de Redes de Computadores",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "express": "^4.17.1",
+    "internal-ip": "^5.0.0",
+    "open": "^7.0.0",
+    "socketio": "^1.0.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mclmorais/if66b-client-to-client-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mclmorais/if66b-client-to-client-chat/issues"
+  },
+  "homepage": "https://github.com/mclmorais/if66b-client-to-client-chat#readme"
+}
